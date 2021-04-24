@@ -1,0 +1,17 @@
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\Task.py Task.py __init__ 27 2021-04-24 17:19:35,004 14484 MainThread 7572 初始化Task窗口
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\Tool.py Tool.py __init__ 79 2021-04-24 17:19:35,021 14484 MainThread 7572 初始化ToolItemWidget
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\Tool.py Tool.py __init__ 79 2021-04-24 17:19:35,025 14484 MainThread 7572 初始化ToolItemWidget
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\Tool.py Tool.py __init__ 79 2021-04-24 17:19:35,030 14484 MainThread 7572 初始化ToolItemWidget
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\Tool.py Tool.py __init__ 79 2021-04-24 17:19:35,037 14484 MainThread 7572 初始化ToolItemWidget
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\Tool.py Tool.py __init__ 79 2021-04-24 17:19:35,047 14484 MainThread 7572 初始化ToolItemWidget
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\Tool.py Tool.py __init__ 79 2021-04-24 17:19:35,053 14484 MainThread 7572 初始化ToolItemWidget
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\Tool.py Tool.py listWidget_tool_updata 51 2021-04-24 17:19:35,054 14484 MainThread 7572 Tool.listWidget_tool更新
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\Tool.py Tool.py __init__ 31 2021-04-24 17:19:35,055 14484 MainThread 7572 初始化Tool窗口
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\About.py About.py __init__ 18 2021-04-24 17:19:35,259 14484 MainThread 7572 初始化About窗口
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\More.py More.py __init__ 25 2021-04-24 17:19:35,260 14484 MainThread 7572 初始化More窗口
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\ComputerHousekeeper.py ComputerHousekeeper.py __init__ 48 2021-04-24 17:19:35,276 14484 MainThread 7572 初始化ComputerHousekeeper窗口
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\ComputerHousekeeper.py ComputerHousekeeper.py resizeEvent 115 2021-04-24 17:19:35,324 14484 MainThread 7572 ComputerHousekeeper大小改变
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\Task.py Task.py resizeEvent 62 2021-04-24 17:19:35,324 14484 MainThread 7572 Task大小改变
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\ComputerHousekeeper.py ComputerHousekeeper.py <module> 126 2021-04-24 17:19:35,349 14484 MainThread 7572 显示ComputerHousekeeper窗口
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\Tool.py Tool.py resizeEvent 55 2021-04-24 17:19:38,931 14484 MainThread 7572 Tool大小改变
+20 INFO E:\王永健\王永健的文件夹\IntegratedProjects\ComputerHousekeeper\ComputerHousekeeper.py ComputerHousekeeper.py show_panel 57 2021-04-24 17:19:38,933 14484 MainThread 7572 切换ComputerHousekeeper界面

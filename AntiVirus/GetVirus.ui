@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>GetVirus</class>
+    <widget class="QWidget" name="GetVirus">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1000</width>
+                <height>618</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>GetVirus</string>
+        </property>
+        <property name="styleSheet">
+            <string notr="true">QWidget#GetVirus
+                {
+                background-color:white
+                }
+            </string>
+        </property>
+        <widget class="QProgressBar" name="progressBar">
+            <property name="geometry">
+                <rect>
+                    <x>128</x>
+                    <y>0</y>
+                    <width>872</width>
+                    <height>32</height>
+                </rect>
+            </property>
+            <property name="maximum">
+                <number>0</number>
+            </property>
+            <property name="value">
+                <number>0</number>
+            </property>
+            <property name="format">
+                <string>%v/%m</string>
+            </property>
+        </widget>
+        <widget class="QProgressBar" name="progressBar2">
+            <property name="geometry">
+                <rect>
+                    <x>128</x>
+                    <y>32</y>
+                    <width>872</width>
+                    <height>32</height>
+                </rect>
+            </property>
+            <property name="maximum">
+                <number>0</number>
+            </property>
+            <property name="value">
+                <number>0</number>
+            </property>
+            <property name="format">
+                <string>%v/%m</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_start">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>128</width>
+                    <height>64</height>
+                </rect>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">QPushButton#pushButton_start
+                    {
+                    border:0px solid rgb(16,124,16);
+                    background-color:white
+                    }
+                    QPushButton#pushButton_start:hover
+                    {
+                    border:2px solid rgb(16,124,16);
+                    border-color:green
+                    }
+                    QPushButton#pushButton_start:pressed
+                    {
+                    background-color:rgb(195, 195, 195)
+                    }
+                </string>
+            </property>
+            <property name="text">
+                <string>开始</string>
+            </property>
+        </widget>
+        <widget class="QTextEdit" name="textEdit_output">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>64</y>
+                    <width>1000</width>
+                    <height>554</height>
+                </rect>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">QTextEdit#textEdit_output
+                    {
+                    border:none
+                    }
+                </string>
+            </property>
+            <property name="readOnly">
+                <bool>true</bool>
+            </property>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
