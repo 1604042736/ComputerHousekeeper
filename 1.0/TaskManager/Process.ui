@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Process</class>
+    <widget class="QWidget" name="Process">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1000</width>
+                <height>618</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Process</string>
+        </property>
+        <property name="styleSheet">
+            <string notr="true">QWidget#Process
+                {
+                background-color:white
+                }
+            </string>
+        </property>
+        <widget class="QTreeView" name="treeView">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>1000</width>
+                    <height>586</height>
+                </rect>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">QTreeView#treeView
+                    {
+                    border:none
+                    }
+                </string>
+            </property>
+            <property name="editTriggers">
+                <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="itemsExpandable">
+                <bool>true</bool>
+            </property>
+            <property name="expandsOnDoubleClick">
+                <bool>true</bool>
+            </property>
+            <attribute name="headerVisible">
+                <bool>true</bool>
+            </attribute>
+        </widget>
+        <widget class="QPushButton" name="pushButton_refresh">
+            <property name="geometry">
+                <rect>
+                    <x>936</x>
+                    <y>586</y>
+                    <width>64</width>
+                    <height>32</height>
+                </rect>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">QPushButton#pushButton_refresh
+                    {
+                    border:0px solid rgb(16,124,16);
+                    background-color:white
+                    }
+                    QPushButton#pushButton_refresh:hover
+                    {
+                    border:2px solid rgb(16,124,16);
+                    border-color:green
+                    }
+                    QPushButton#pushButton_refresh:pressed
+                    {
+                    background-color:rgb(195, 195, 195)
+                    }
+                </string>
+            </property>
+            <property name="text">
+                <string>刷新</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_stop">
+            <property name="geometry">
+                <rect>
+                    <x>872</x>
+                    <y>586</y>
+                    <width>64</width>
+                    <height>32</height>
+                </rect>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">QPushButton#pushButton_stop
+                    {
+                    border:0px solid rgb(16,124,16);
+                    background-color:white
+                    }
+                    QPushButton#pushButton_stop:hover
+                    {
+                    border:2px solid rgb(16,124,16);
+                    border-color:green
+                    }
+                    QPushButton#pushButton_stop:pressed
+                    {
+                    background-color:rgb(195, 195, 195)
+                    }
+                </string>
+            </property>
+            <property name="text">
+                <string>结束</string>
+            </property>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

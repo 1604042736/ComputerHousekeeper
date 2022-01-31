@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Performance</class>
+    <widget class="QWidget" name="Performance">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1000</width>
+                <height>618</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Performance</string>
+        </property>
+        <property name="styleSheet">
+            <string notr="true">QWidget#Performance
+                {
+                background-color:white
+                }
+            </string>
+        </property>
+        <widget class="QListWidget" name="listWidget_name">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>128</width>
+                    <height>618</height>
+                </rect>
+            </property>
+            <property name="contextMenuPolicy">
+                <enum>Qt::CustomContextMenu</enum>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">QListWidget#listWidget_name
+                    {
+                    border:none
+                    }
+                </string>
+            </property>
+            <item>
+                <property name="text">
+                    <string>CPU</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>内存</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>WLAN</string>
+                </property>
+            </item>
+        </widget>
+        <widget class="QFrame" name="frame_content">
+            <property name="geometry">
+                <rect>
+                    <x>128</x>
+                    <y>0</y>
+                    <width>872</width>
+                    <height>618</height>
+                </rect>
+            </property>
+            <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+            </property>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
